@@ -49,11 +49,11 @@ public class Cesco {
 		 	//GROWTH_RATE means bug's growth rate per 'week'. so after calculating population and voulume, add 1 to countWeeks. 
 		 }
 		 
-		 System.out.println("startPop = "+startPopulation); //output the initial population
-		 System.out.println("houseVol ="+ houseVolume); //output the volume of house
-		 System.out.println("countWeek ="+countWeeks); //output the week count when the volume of bugs is larger than the volume of house
-		 System.out.println("population ="+(int)population); //output the population of bugs
-		 System.out.println("total bug volume ="+(int)totalBugVolume); //casting totalBugVolume to integer and output the volume of total bugs
+		 System.out.println("Start Population = "+startPopulation); //output the initial population
+		 System.out.println("House Volume ="+ houseVolume); //output the volume of house
+		 System.out.println("Count Week ="+countWeeks); //output the week count when the volume of bugs is larger than the volume of house
+		 System.out.println("Bug Population ="+(int)population); //output the population of bugs
+		 System.out.println("Total Bug Volume ="+(int)totalBugVolume); //casting totalBugVolume to integer and output the volume of total bugs
 	}
 
 	public static void main(String[] args) {
