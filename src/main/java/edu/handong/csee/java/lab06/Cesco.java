@@ -19,6 +19,7 @@ public class Cesco {
 	
 	
 	/** This is a method that compute data about bugs.
+	 * And print-out calculated data.
 	 */
 	public void computeNumOfBugsToUseFkiller() { 
 		
