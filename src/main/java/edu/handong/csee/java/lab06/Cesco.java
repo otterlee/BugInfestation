@@ -52,8 +52,8 @@ public class Cesco {
 		 System.out.println("startPop = "+startPopulation); //output the initial population
 		 System.out.println("houseVol ="+ houseVolume); //output the volume of house
 		 System.out.println("countWeek ="+countWeeks); //output the week count when the volume of bugs is larger than the volume of house
-		 System.out.println("pop ="+(int)population); //output the population of bugs
-		 System.out.println("total bug vol ="+(int)totalBugVolume); //casting totalBugVolume to integer and output the volume of total bugs
+		 System.out.println("population ="+(int)population); //output the population of bugs
+		 System.out.println("total bug volume ="+(int)totalBugVolume); //casting totalBugVolume to integer and output the volume of total bugs
 	}
 
 	public static void main(String[] args) {
