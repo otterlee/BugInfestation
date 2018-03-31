@@ -8,8 +8,11 @@ import java.util.Scanner;
  * 
  *@author Sua Lee
  */
-
-	/** This is main method, it calls method computeNumOfBugsToUseFkiller().
+	/**
+	 * This class includes main method and public method computeNumOfBugsToUseFkiller.
+	 * And this class has two final instance variables.
+	 * @author suagu
+	 *
 	 */
 
 public class Cesco {
@@ -55,7 +58,9 @@ public class Cesco {
 		 System.out.println("Bug Population ="+(int)population); //output the population of bugs
 		 System.out.println("Total Bug Volume ="+(int)totalBugVolume); //casting totalBugVolume to integer and output the volume of total bugs
 	}
-
+	
+	/** This is main method, it calls method computeNumOfBugsToUseFkiller().
+	 */
 	public static void main(String[] args) {
 		Cesco myCesco = new Cesco(); //instantiate the Cesco to myCesco
 		myCesco.computeNumOfBugsToUseFkiller(); 
