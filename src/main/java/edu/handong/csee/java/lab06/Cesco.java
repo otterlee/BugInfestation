@@ -18,7 +18,7 @@ public class Cesco {
 	//declare and the bug's GROWTH_RATE and ONE_BUG_VOLUME in 'final' because these are constants.
 	
 	
-	/** This is a method that compute data about bugs.
+	/** This is a method that compute data about bug and this is made for using Fkiller.
 	 * And print-out calculated data.
 	 */
 	public void computeNumOfBugsToUseFkiller() { 
