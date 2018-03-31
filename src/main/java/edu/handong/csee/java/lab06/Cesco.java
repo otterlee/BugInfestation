@@ -23,7 +23,7 @@ public class Cesco {
 	public void computeNumOfBugsToUseFkiller() { 
 		
 		Scanner keyboard = new Scanner(System.in);//instantiate Scanner
-		
+		System.out.println("<BUG INFESTATION>"); //print-out the program name
 		System.out.print("Enter the house volume :"); //prompt to enter the house volume
 		double houseVolume = keyboard.nextDouble();//take the input number and assign to houseVolume;
 		
@@ -59,8 +59,6 @@ public class Cesco {
 		Cesco myCesco = new Cesco(); //instantiate the Cesco to myCesco
 		myCesco.computeNumOfBugsToUseFkiller(); 
 		//execute the method to find the number of weeks to exceed the capacity of the house, and number and volume of roaches
-
-
 	}
 	
 }
